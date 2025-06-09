@@ -1,0 +1,34 @@
+name: autc_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase core library for initialization
+  firebase_core: ^2.7.0
+
+  # Firebase authentication for user login
+  firebase_auth: ^4.8.0
+
+  # Shared preferences for local storage
+  shared_preferences: ^2.1.0
+
+  # Cupertino icons for iOS styled icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended linting rules for Flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
